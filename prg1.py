@@ -1,6 +1,7 @@
 a=int(input("Enter first number: "))
 b=int(input("Enter second number: "))
 c=int(input("Enter third number: "))
+print("a:",a," b:",b," c:",c)
 if a>=b and a>=c:
     print(f"{a} is the largest number")
 elif b>=a and b>=c:
